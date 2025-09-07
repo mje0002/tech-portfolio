@@ -1,7 +1,7 @@
 const socials = [
   {
     name: 'Github',
-    url: 'https://github.com/',
+    url: 'https://github.com/mje0002',
     icon: 'github',
   },
   {
@@ -11,7 +11,7 @@ const socials = [
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/',
+    url: 'https://www.linkedin.com/in/matthew-echeverria-a72317a5/',
     icon: 'linkedin',
   },
 ];
