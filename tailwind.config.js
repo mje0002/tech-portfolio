@@ -85,6 +85,12 @@ module.exports = {
         'inverse-surface': 'rgb(var(--md-sys-color-inverse-surface) / <alpha-value>)',
         'inverse-on-surface': 'rgb(var(--md-sys-color-inverse-on-surface) / <alpha-value>)',
         'inverse-primary': 'rgb(var(--md-sys-color-inverse-primary) / <alpha-value>)',
+        
+        // Convenience aliases for common usage
+        'primary-foreground': 'rgb(var(--md-sys-color-on-primary) / <alpha-value>)',
+        'secondary-foreground': 'rgb(var(--md-sys-color-on-secondary) / <alpha-value>)',
+        'tertiary-foreground': 'rgb(var(--md-sys-color-on-tertiary) / <alpha-value>)',
+        'foreground': 'rgb(var(--md-sys-color-on-background) / <alpha-value>)',
       }
       ,
       animation: {

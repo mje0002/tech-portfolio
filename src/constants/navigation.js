@@ -2,6 +2,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
+import Skills from '../components/Skills';
 
 const navlinks = [
   {
@@ -18,6 +19,11 @@ const navlinks = [
     id: 'projects',
     title: 'Projects',
     component: Projects,
+  },
+  {
+    id: 'skills',
+    title: 'Skills',
+    component: Skills,
   },
   {
     id: 'contact',

@@ -1,6 +1,8 @@
 import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
+import instagram from './instagram.svg';
+import linkedin from './linkedin.svg';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -25,6 +27,8 @@ export {
   github,
   menu,
   close,
+  instagram,
+  linkedin,
   css,
   docker,
   figma,
