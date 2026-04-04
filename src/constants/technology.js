@@ -1,103 +1,102 @@
-const technologies = [
+/**
+ * Technology stack organized by category and subgroup.
+ * Each category represents a domain (Front End, Back End, etc.).
+ * Subgroups further classify technologies within each category.
+ */
+const technologyGroups = [
   {
-    name: '.NET',
-    icon: 'icon',
+    category: 'Front End',
+    color: 'primary',
+    subgroups: [
+      {
+        label: 'Frameworks',
+        technologies: [
+          { name: 'Vuejs' },
+          { name: 'Knockout' },
+          { name: 'SingleSpa-Js' },
+        ],
+      },
+      {
+        label: 'Libraries & UI',
+        technologies: [
+          { name: 'Jquery' },
+          { name: 'Kendo' },
+          { name: 'RequireJS' },
+        ],
+      },
+    ],
   },
   {
-    name: 'AWS',
-    icon: 'icon',
+    category: 'Back End',
+    color: 'secondary',
+    subgroups: [
+      {
+        label: 'Languages',
+        technologies: [
+          { name: 'C#/.NET' },
+          { name: 'Node.js/TypeScript' },
+          { name: 'TypeScript' },
+        ],
+      },
+      {
+        label: 'Frameworks',
+        technologies: [
+          { name: '.NET' },
+          { name: 'Express/NestJs' },
+          { name: 'Inversify' },
+        ],
+      },
+    ],
   },
   {
-    name: 'C#/.NET',
-    icon: 'icon',
+    category: 'Database',
+    color: 'tertiary',
+    subgroups: [
+      {
+        label: 'Databases',
+        technologies: [{ name: 'PostgreSQL' }, { name: 'SQL' }],
+      },
+      {
+        label: 'ORM & Tools',
+        technologies: [{ name: 'Slonik' }, { name: 'Entity Framework' }],
+      },
+    ],
   },
   {
-    name: 'Docker',
-    icon: 'icon',
+    category: 'DevOps & Cloud',
+    color: 'primary',
+    subgroups: [
+      {
+        label: 'Cloud',
+        technologies: [{ name: 'AWS' }, { name: 'S3' }],
+      },
+      {
+        label: 'CI/CD & Containers',
+        technologies: [{ name: 'Docker' }, { name: 'GitHub Actions' }],
+      },
+    ],
   },
   {
-    name: 'Domain-Driven Design (DDD)',
-    icon: 'icon',
-  },
-  {
-    name: 'Entity Framework',
-    icon: 'icon',
-  },
-  {
-    name: 'Express/NestJs',
-    icon: 'icon',
-  },
-  {
-    name: 'GitHub Actions',
-    icon: 'icon',
-  },
-  {
-    name: 'Inversify',
-    icon: 'icon',
-  },
-  {
-    name: 'Jira',
-    icon: 'icon',
-  },
-  {
-    name: 'Jquery',
-    icon: 'icon',
-  },
-  {
-    name: 'Kendo',
-    icon: 'icon',
-  },
-  {
-    name: 'Knockout',
-    icon: 'icon',
-  },
-  {
-    name: 'MVVM',
-    icon: 'icon',
-  },
-  {
-    name: 'Node.js/TypeScript',
-    icon: 'icon',
-  },
-  {
-    name: 'Pentaho',
-    icon: 'icon',
-  },
-  {
-    name: 'PostgreSQL',
-    icon: 'icon',
-  },
-  {
-    name: 'RabbitMQ',
-    icon: 'icon',
-  },
-  {
-    name: 'RequireJS',
-    icon: 'icon',
-  },
-  {
-    name: 'SingleSpa-Js',
-    icon: 'icon',
-  },
-  {
-    name: 'Slonik',
-    icon: 'icon',
-  },
-  {
-    name: 'S3',
-    icon: 'icon',
-  },
-  {
-    name: 'SQL',
-    icon: 'icon',
-  },
-  {
-    name: 'TypeScript',
-    icon: 'icon',
-  },
-  {
-    name: 'Vuejs',
-    icon: 'icon',
+    category: 'Architecture & Tools',
+    color: 'secondary',
+    subgroups: [
+      {
+        label: 'Patterns',
+        technologies: [
+          { name: 'Domain-Driven Design (DDD)' },
+          { name: 'MVVM' },
+        ],
+      },
+      {
+        label: 'Tools',
+        technologies: [
+          { name: 'Jira' },
+          { name: 'Pentaho' },
+          { name: 'RabbitMQ' },
+        ],
+      },
+    ],
   },
 ];
-export default technologies;
+
+export default technologyGroups;

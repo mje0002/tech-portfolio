@@ -58,57 +58,57 @@
     --md-sys-color-surface-container-highest: 228 226 227;
   }
 
-  /* Dark theme variables */
+  /* Dark theme variables - Enhanced with vibrant, professional colors */
   .dark {
-    --md-sys-color-primary: 188 199 222;
-    --md-sys-color-surface-tint: 188 199 222;
-    --md-sys-color-on-primary: 38 49 67;
-    --md-sys-color-primary-container: 30 41 59;
-    --md-sys-color-on-primary-container: 133 144 166;
-    --md-sys-color-secondary: 185 200 222;
-    --md-sys-color-on-secondary: 35 49 67;
-    --md-sys-color-secondary-container: 148 163 184;
-    --md-sys-color-on-secondary-container: 43 57 75;
-    --md-sys-color-tertiary: 173 199 255;
-    --md-sys-color-on-tertiary: 0 46 104;
-    --md-sys-color-tertiary-container: 74 142 255;
-    --md-sys-color-on-tertiary-container: 0 31 73;
-    --md-sys-color-error: 255 180 171;
-    --md-sys-color-on-error: 105 0 5;
-    --md-sys-color-error-container: 147 0 10;
+    --md-sys-color-primary: 129 164 230;
+    --md-sys-color-surface-tint: 129 164 230;
+    --md-sys-color-on-primary: 15 23 38;
+    --md-sys-color-primary-container: 41 66 118;
+    --md-sys-color-on-primary-container: 200 217 255;
+    --md-sys-color-secondary: 147 185 216;
+    --md-sys-color-on-secondary: 20 35 52;
+    --md-sys-color-secondary-container: 58 88 130;
+    --md-sys-color-on-secondary-container: 210 230 255;
+    --md-sys-color-tertiary: 100 181 246;
+    --md-sys-color-on-tertiary: 3 28 51;
+    --md-sys-color-tertiary-container: 30 136 229;
+    --md-sys-color-on-tertiary-container: 240 249 255;
+    --md-sys-color-error: 255 138 128;
+    --md-sys-color-on-error: 93 0 9;
+    --md-sys-color-error-container: 186 26 26;
     --md-sys-color-on-error-container: 255 218 214;
-    --md-sys-color-background: 19 19 21;
-    --md-sys-color-on-background: 228 226 227;
-    --md-sys-color-surface: 19 19 21;
-    --md-sys-color-on-surface: 228 226 227;
-    --md-sys-color-surface-variant: 69 71 76;
-    --md-sys-color-on-surface-variant: 197 198 205;
-    --md-sys-color-outline: 143 144 151;
-    --md-sys-color-outline-variant: 69 71 76;
+    --md-sys-color-background: 16 20 27;
+    --md-sys-color-on-background: 237 239 244;
+    --md-sys-color-surface: 20 24 32;
+    --md-sys-color-on-surface: 237 239 244;
+    --md-sys-color-surface-variant: 48 55 70;
+    --md-sys-color-on-surface-variant: 210 215 230;
+    --md-sys-color-outline: 155 165 185;
+    --md-sys-color-outline-variant: 70 80 100;
     --md-sys-color-shadow: 0 0 0;
     --md-sys-color-scrim: 0 0 0;
-    --md-sys-color-inverse-surface: 228 226 227;
-    --md-sys-color-inverse-on-surface: 48 48 50;
-    --md-sys-color-inverse-primary: 84 95 115;
-    --md-sys-color-primary-fixed: 216 227 251;
-    --md-sys-color-on-primary-fixed: 17 28 45;
-    --md-sys-color-primary-fixed-dim: 188 199 222;
-    --md-sys-color-on-primary-fixed-variant: 60 71 90;
-    --md-sys-color-secondary-fixed: 212 228 250;
-    --md-sys-color-on-secondary-fixed: 13 28 45;
-    --md-sys-color-secondary-fixed-dim: 185 200 222;
-    --md-sys-color-on-secondary-fixed-variant: 57 72 90;
-    --md-sys-color-tertiary-fixed: 216 226 255;
-    --md-sys-color-on-tertiary-fixed: 0 26 65;
-    --md-sys-color-tertiary-fixed-dim: 173 199 255;
-    --md-sys-color-on-tertiary-fixed-variant: 0 68 147;
-    --md-sys-color-surface-dim: 19 19 21;
-    --md-sys-color-surface-bright: 57 57 58;
-    --md-sys-color-surface-container-lowest: 14 14 15;
-    --md-sys-color-surface-container-low: 27 27 29;
-    --md-sys-color-surface-container: 31 31 33;
-    --md-sys-color-surface-container-high: 42 42 43;
-    --md-sys-color-surface-container-highest: 53 53 54;
+    --md-sys-color-inverse-surface: 237 239 244;
+    --md-sys-color-inverse-on-surface: 28 32 40;
+    --md-sys-color-inverse-primary: 38 70 130;
+    --md-sys-color-primary-fixed: 200 217 255;
+    --md-sys-color-on-primary-fixed: 0 20 50;
+    --md-sys-color-primary-fixed-dim: 129 164 230;
+    --md-sys-color-on-primary-fixed-variant: 30 55 105;
+    --md-sys-color-secondary-fixed: 210 230 255;
+    --md-sys-color-on-secondary-fixed: 5 25 48;
+    --md-sys-color-secondary-fixed-dim: 147 185 216;
+    --md-sys-color-on-secondary-fixed-variant: 42 72 115;
+    --md-sys-color-tertiary-fixed: 220 240 255;
+    --md-sys-color-on-tertiary-fixed: 0 24 50;
+    --md-sys-color-tertiary-fixed-dim: 100 181 246;
+    --md-sys-color-on-tertiary-fixed-variant: 0 89 162;
+    --md-sys-color-surface-dim: 16 20 27;
+    --md-sys-color-surface-bright: 44 50 62;
+    --md-sys-color-surface-container-lowest: 10 13 18;
+    --md-sys-color-surface-container-low: 24 28 36;
+    --md-sys-color-surface-container: 28 33 42;
+    --md-sys-color-surface-container-high: 36 42 53;
+    --md-sys-color-surface-container-highest: 45 52 65;
   }
 
 }
@@ -319,4 +319,156 @@ section {
 .main-content {
   margin-top: 76px;
   height: calc(100vh - 76px);
+}
+/* Dark mode enhancements */
+@layer utilities {
+  .dark .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+  }
+
+  .dark .shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.6);
+  }
+
+  .dark .shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 0 1px 2px -1px rgba(0, 0, 0, 0.4);
+  }
+
+  .dark .border-tertiary {
+    border-color: rgb(100 181 246 / 0.6);
+  }
+
+  .dark .bg-tertiary\/10 {
+    background-color: rgb(100 181 246 / 0.08);
+  }
+
+  .dark .bg-tertiary\/20 {
+    background-color: rgb(100 181 246 / 0.15);
+  }
+
+  /* Add subtle glow to tertiary elements in dark mode */
+  .dark .text-tertiary {
+    text-shadow: 0 0 20px rgba(100, 181, 246, 0.15);
+  }
+
+  /* Enhance borders in dark mode */
+  .dark .border-outline {
+    border-color: rgb(155 165 185 / 0.3);
+  }
+
+  /* Better card backgrounds in dark mode */
+  .dark .bg-surface {
+    background-color: rgb(20 24 32);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Animated gradient background */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-slow {
+  background-size: 200% 200%;
+  animation: gradient-animation 20s ease infinite;
+}
+
+/* Pulse animation for hover effects */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* dadCoder Vintage Computing Aesthetics */
+
+/* Typewriter/Terminal cursor blink effect */
+@keyframes blink-cursor {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink::after {
+  content: '▮';
+  animation: blink-cursor 1s step-end infinite;
+  color: rgb(217, 119, 6); /* amber */
+}
+
+/* Vintage terminal glow */
+@keyframes vintage-glow {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(217, 119, 6, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(217, 119, 6, 0.5), 0 0 15px rgba(217, 119, 6, 0.3);
+  }
+}
+
+.terminal-glow {
+  animation: vintage-glow 2s ease-in-out infinite;
+}
+
+/* Sophisticated monocle shimmer effect */
+@keyframes monocle-shimmer {
+  0% {
+    box-shadow: 0 0 10px rgba(217, 119, 6, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(217, 119, 6, 0.2), 0 0 30px rgba(217, 119, 6, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(217, 119, 6, 0.1);
+  }
+}
+
+/* Punch card hole pattern effect */
+.punch-card-pattern {
+  background-image: 
+    radial-gradient(circle at center, rgba(217, 119, 6, 0.1) 0%, transparent 2px),
+    radial-gradient(circle at center, rgba(217, 119, 6, 0.05) 0%, transparent 1px);
+  background-size: 20px 20px, 10px 10px;
+  background-position: 0 0, 5px 5px;
+}
+
+/* Vintage paper texture for cards */
+.vintage-paper {
+  background-color: rgba(251, 248, 250, 0.98);
+  position: relative;
+}
+
+.vintage-paper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.dark .vintage-paper {
+  background-color: rgba(20, 24, 32, 0.98);
+}
+
+/* Retro computing amber accent */
+.accent-amber {
+  color: rgb(217, 119, 6);
+}
+
+.dark .accent-amber {
+  color: rgb(251, 191, 36);
 }

@@ -2,7 +2,10 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
+import AnimatedBackground from './components/Background/AnimatedBackground';
 import { BrowserRouter } from 'react-router-dom';
 import hero from './constants/hero';
 import personal from './assets/personal.jpg';
@@ -20,9 +23,10 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-surface-container flex flex-col">
+      <div className="min-h-screen bg-surface-container flex flex-col relative">
+        <AnimatedBackground />
         <NavBar />
-        <main className="pt-24 pb-10 flex-1">
+        <main className="pt-24 pb-10 flex-1 relative z-10">
           {/* Hero Card - split left/right, profile image, buttons, online status */}
           <section id="info" className="container mx-auto mb-5">
             <div className="bg-surface rounded-2xl shadow-lg border border-outline p-0 md:p-0 flex flex-col md:flex-row items-stretch">
@@ -108,7 +112,7 @@ function App() {
                 </div>
               </div>
               {/* Right */}
-              <div className="flex flex-col items-center justify-center p-8 md:p-10 gap-4 md:border-l border-outline bg-surface-variant rounded-b-2xl md:rounded-b-none md:rounded-r-2xl">
+              <div className="flex flex-col items-center justify-center p-8 md:p-10 gap-4 md:border-l border-outline rounded-b-2xl md:rounded-b-none md:rounded-r-2xl">
                 <button
                   type="button"
                   className="online flex items-center gap-2 text-green-600 font-medium mb-2 cursor-default"
@@ -119,7 +123,7 @@ function App() {
                   Available For Job
                 </button>
                 {/* Profile image placeholder */}
-                <div className="w-32 h-32 rounded-full bg-on-surface/10 border-4 border-surface shadow-inner flex items-center justify-center overflow-hidden">
+                <div className="w-48 h-48 rounded-full bg-on-surface/10 border-4 border-surface shadow-inner flex items-center justify-center overflow-hidden">
                   <img
                     src={personal}
                     alt="profile"
@@ -145,6 +149,14 @@ function App() {
           {/* Projects Section */}
           <section className="container mx-auto mb-5">
             <Projects />
+          </section>
+          {/* Skills Section */}
+          <section className="container mx-auto mb-5">
+            <Skills />
+          </section>
+          {/* Contact Section */}
+          <section className="container mx-auto mb-5">
+            <Contact />
           </section>
         </main>
         <Footer />

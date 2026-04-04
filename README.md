@@ -78,3 +78,13 @@ In order to run the development server, follow this simple guide once you have i
 7. If any edits were made make sure to update them back in the main repo.
    - Make sure any commits done during deploy updates are marked with correct versioning
    - vX.X.X
+
+
+# TODO
+Fix light and dark theming
+update to have chatbot
+update sections to use 3d background 
+make contact dropdown
+- socials
+- email
+- phone number

@@ -1,10 +1,10 @@
-import { github } from '../assets';
+import { github, instagram, linkedin } from '../assets';
 import socials from '../constants/socials';
 
 const iconMap = {
   github: github,
-  instagram: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg',
-  linkedin: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg',
+  instagram: instagram,
+  linkedin: linkedin,
 };
 
 const Footer = () => {
