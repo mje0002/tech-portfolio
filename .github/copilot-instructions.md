@@ -1,5 +1,41 @@
 # Coding Instructions
 
+## Project Context
+
+**Read `.context/overview.md` for:**
+- Complete tech stack details
+- Project structure and organization
+- Key features and architecture
+- Development workflow
+
+**Read `.context/standards/` for:**
+- Code style guidelines (file naming, imports, JSX formatting)
+- Naming conventions (components, variables, functions)
+- Error handling patterns
+
+**Read `.context/architecture/` for:**
+- Architectural patterns (constants-driven architecture, Material Design 3 theming)
+- Component composition strategies
+
+**Read `.context/domains/` for:**
+- Data entities and their structure (Hero, Navigation, Projects, etc.)
+- Domain terminology and glossary
+
+**Read `.context/workflows/` for:**
+- Task execution workflow
+- Branching strategy and CI/CD practices
+
+**Read `.context/styling/` for:**
+- Material Design 3 color system usage
+- Tailwind CSS utility best practices
+- Responsive design patterns
+
+**Read `.context/testing/` for:**
+- Unit testing patterns with Jest and React Testing Library
+- Integration testing strategies
+
+---
+
 ## Context
 
 - **Tech Stack:**
