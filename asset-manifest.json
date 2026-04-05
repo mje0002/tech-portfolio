@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tech-portfolio/static/css/main.a026db08.css",
+    "main.js": "/tech-portfolio/static/js/main.8cbd02bb.js",
+    "static/js/453.90b52d81.chunk.js": "/tech-portfolio/static/js/453.90b52d81.chunk.js",
+    "static/media/personal.jpg": "/tech-portfolio/static/media/personal.3ff6ec2207bf05708001.jpg",
+    "static/media/github.png": "/tech-portfolio/static/media/github.ed1c06d925fff0b57e32.png",
+    "static/media/logo-no-background.svg": "/tech-portfolio/static/media/logo-no-background.8a3559a9fed2847780bd82b5e0a4e5b8.svg",
+    "static/media/instagram.svg": "/tech-portfolio/static/media/instagram.b133e565e26031a4181b82e6a67d7c65.svg",
+    "static/media/close.svg": "/tech-portfolio/static/media/close.8de6460f269d97bdef87c899c2b54e45.svg",
+    "index.html": "/tech-portfolio/index.html",
+    "static/media/menu.svg": "/tech-portfolio/static/media/menu.a14e08da817ed339d3849bc81037592d.svg",
+    "static/media/threejs.svg": "/tech-portfolio/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
+    "static/media/linkedin.svg": "/tech-portfolio/static/media/linkedin.98956d298e14a6384fdb39c42269f2f2.svg",
+    "main.a026db08.css.map": "/tech-portfolio/static/css/main.a026db08.css.map",
+    "main.8cbd02bb.js.map": "/tech-portfolio/static/js/main.8cbd02bb.js.map",
+    "453.90b52d81.chunk.js.map": "/tech-portfolio/static/js/453.90b52d81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a026db08.css",
+    "static/js/main.8cbd02bb.js"
+  ]
+}
